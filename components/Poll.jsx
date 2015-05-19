@@ -15,7 +15,7 @@ var Poll = React.createClass({
 					<form>
 						<p className="h3">How did you hear about us?</p>
 
-						<RadioOptionGroup other={true} options={radioOptions}/>
+						<RadioOptionGroup name="referrer" other={true} options={radioOptions}/>
 
 						<p><input type="submit"/></p>
 					</form>
